@@ -1,0 +1,83 @@
+/* Medium Layout:1280px */
+@media only screen and (min-width: 992px) and (max-width:2000px){
+
+    .slide-text h2 {
+        font-size: 50px;
+    }
+    .title-gallery img {
+        max-width: 320px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .mobile-menu-wrap{display: none;}
+
+}
+
+
+/* Tablet Layout:768px*/
+@media only screen and (min-width: 768px) and (max-width:991px){
+   
+}
+
+
+
+/* Tablet & mobile Layout:768px */
+@media only screen and (max-width:991px){
+    .mainmenu {
+        display: none;
+    }
+    .slide-text h2 {
+        font-size: 30px;
+    }
+    .single-slide-item {
+        padding: 100px 0;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .title-gallery {
+        height: auto;
+        margin-left: 0;
+    }
+    .title-gallery img {
+        margin-bottom: 20px;
+    }
+    .title-gallery img:nth-child(2) {
+        z-index: 2;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .title-gallery img:nth-child(3) {
+        z-index: 3;
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    .services-bg:after {
+        display: none;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .mobile-left {
+        text-align: left;
+    }
+    .footer-area .col-md-2, .footer-area .col-md-3{margin-top:50px}
+
+
+}
+
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width:767px){
+
+}
+
+
+
+/* Wide Mobile Layout:480px */
+@media only screen and (min-width: 480px) and (max-width:767px){
+
+}
